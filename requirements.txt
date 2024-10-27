@@ -2,3 +2,6 @@ scikit-learn
 pandas
 numpy
 matplotlib
+websocket-server
+pymongo
+serial
