@@ -3,7 +3,7 @@ import numpy as np
 from datetime import datetime, timedelta
 
 # Function to generate a training dataset for the water management model
-def generate_training_data(start_date, num_days=60, num_houses=5):
+def generate_training_data(start_date, num_days=60, num_houses=2):
     data = []
     current_time = start_date
 
