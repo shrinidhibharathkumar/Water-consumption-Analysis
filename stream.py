@@ -1,5 +1,4 @@
 from threading import Thread, Event
-import random
 from websocket_server import WebsocketServer
 import json
 import serial
