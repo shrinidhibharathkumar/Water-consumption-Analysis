@@ -4,7 +4,7 @@ numpy
 matplotlib
 websocket-server
 pymongo
-serial
+pyserial
 xgboost
 keras
 tensorflow
