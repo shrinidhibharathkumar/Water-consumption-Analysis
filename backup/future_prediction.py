@@ -10,7 +10,7 @@ from sklearn.pipeline import Pipeline
 
 # Sample data preparation (assuming df_optimized has historical data)
 # Features include 'Day', 'ElectricityUsage(kWh)', and 'PumpedWater(L)'
-df = df_optimized.copy()
+df=[]
 
 # Converting 'Day' to ordinal values for easier modeling
 df['Day'] = pd.to_datetime(df['Day']).map(lambda date: date.toordinal())
